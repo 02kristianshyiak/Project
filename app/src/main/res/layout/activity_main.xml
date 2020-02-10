@@ -40,28 +40,48 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:background="#00008B"
+                android:background="?android:attr/selectableItemBackground"
                 android:onClick="addThreeForTeamA"
                 android:text="Between The Legs and Bar Down"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FF0000" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:background="#00008B"
+                android:background="?android:attr/selectableItemBackground"
                 android:onClick="addTwoForTeamA"
                 android:text="Bar Down"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FF0000" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:background="#00008B"
+                android:background="?android:attr/selectableItemBackground"
                 android:onClick="addOneForTeamA"
                 android:text="goal"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FF0000" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:onClick="add2moreForTeamA"
+                android:text="Peanut butter jar"
+                android:textColor="#FF0000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:onClick="add2moreForTeamA"
+                android:text="A million"
+                android:textColor="#FF0000"
+                android:textSize="2dp" />
 
         </LinearLayout>
 
@@ -96,28 +116,37 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:background="#FF0000"
+                android:background="?android:attr/selectableItemBackground"
                 android:onClick="addThreeForTeamB"
                 android:text="Between the legs and bar down"
-                android:textColor="#FFFFFF" />
+                android:textColor="#00008B" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:background="#FF0000"
+                android:background="?android:attr/selectableItemBackground"
                 android:onClick="addTwoForTeamB"
                 android:text="bar down"
-                android:textColor="#FFFFFF" />
+                android:textColor="#00008B" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:background="#FF0000"
+                android:background="?android:attr/selectableItemBackground"
                 android:onClick="addOneForTeamB"
                 android:text="goal"
-                android:textColor="#FFFFFF" />
+                android:textColor="#00008B" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:onClick="add2moreForTeamB"
+                android:text="Peanut butter jar"
+                android:textColor="#00008B" />
 
         </LinearLayout>
     </LinearLayout>
