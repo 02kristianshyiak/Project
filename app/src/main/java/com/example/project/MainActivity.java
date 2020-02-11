@@ -36,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamA);
     }
 
+    public void add1milForTeamA(View v) {
+        scoreTeamA = scoreTeamA + 1000000;
+        displayForTeamA(scoreTeamA);
+    }
+
     /**
      * Displays the given score for Team A.
      */
@@ -63,6 +68,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void add2moreForTeamB(View v) {
         scoreTeamB = scoreTeamB + 2;
+        displayForTeamB(scoreTeamB);
+    }
+
+    public void add1milForTeamB(View v) {
+        scoreTeamB = scoreTeamB + 1000000;
         displayForTeamB(scoreTeamB);
     }
 
